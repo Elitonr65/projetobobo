@@ -1,5 +1,14 @@
+body {
+    background: url(./image/bts4.jpg) no-repeat bottom  scroll;
+    background-position: 5% 5%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 #conteudo {
-    background: #ff7a7a;
+    
     width: 100%;
     height: 100%;
     position: fixed;
@@ -10,12 +19,16 @@
     font-family: sans-serif;
 }
 
+img {
+    max-width: 100%;
+}
+
 a{
     text-decoration: none;
 }
 
 .btn {
-    background: black;
+    background: #993399;
     color: white;
     border: none;
     padding: 10px;
